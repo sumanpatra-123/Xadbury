@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" style="color: rgb(83, 0, 0);" href="">Xadbury</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" style="color: blanchedalmond;" href="#footer">Contact</a>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" style="color: blanchedalmond;" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" style="color: blanchedalmond;" href="#cta">Download</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading" style="color: rgb(230, 230, 116);">Enjoy the new taste of chocolates.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="https://images3.alphacoders.com/200/thumb-1920-200267.jpg" alt="chocolate">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">100% Healthy.</h3>
+          <p>Eat and Share with friends and families.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Taste</h3>
+          <p>Great taste more than expected.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Gift your loved one's.</h3>
+          <p>Gift it and see the magic.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I think this was the best chocolate i ever had....One of my favourite.</h2>
+          <img class="testimonial-image" src="data:image/jpeg;base64,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" alt="dog-profile">
+          <em>Khanna, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Just a perfect choco to eat and gift your loved one's.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">Prices according to your Favourite Flavour</h2>
+    <p>Feel the taste.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Dark Choco</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">50Rs</h2>
+            <p>Best Quality</p>
+            <p>Hygiene</p>
+            <p>Tastes Great</p> 
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Caramel</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">100Rs</h2>
+            <p>Best Quality</p>
+            <p>Hygiene</p>
+            <p>Tastes Great</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Silk</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">200Rs</h2>
+            <p>Best Quality</p>
+            <p>Hygiene</p>
+            <p>Tastes Great</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Gift your true one's with this delighted taste🥰.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <div class="bottom-container">
+      <p  style="font-size: 25px;">Follow us on:</p>
+      <a href="https://www.facebook.com/"> <i class="social-icon fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com/"> <i class="social-icon fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/"> <i class="social-icon fab fa-instagram"></i></a>
+      <a href="https://www.gmail.com/"> <i class="social-icon fas fa-envelope"></i></a>
+
+      <ul class="list-unstyled list-inline text-center py-2">
+          <h4 class="mb-1">REGISTER FOR FREE</h4>
+          <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+          <p class="copy-right">COPYRIGHT © 2020 Xadbury PVT. LTD. ALL RIGHTS RESERVED</p>
+          
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>  
+</body>
+
+</html>
